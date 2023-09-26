@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Croissant One', cursive;
+    font-family: 'Kanit', sans-serif;
 }
 
 .headerOfWebSite{
@@ -84,3 +84,27 @@ nav{
     cursor: pointer;
 }
 
+.btn:hover{
+    border: 1px solid #87CEEB;
+    background: #87CEEB;
+    transition: 1s;
+}
+
+.PLACESTOVISIT{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p{
+    color: #403f3f;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
