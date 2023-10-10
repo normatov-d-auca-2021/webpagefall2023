@@ -1,4 +1,4 @@
- *{
+*{
     margin: 0;
     padding: 0;
     font-family: 'Kanit', sans-serif;
@@ -18,8 +18,8 @@ nav{
     display: flex;
     padding: 0% 1%;
     justify-content: space-between;
-    align-items: center;
 }
+
 nav img{
     width: 200px;
 }
@@ -27,6 +27,8 @@ nav img{
 .navigationLinks{
     flex: 2;
     text-align: right;
+    margin-top: 40px;
+    margin-right: 20px;
 }
 
 .navigationLinks ul{
@@ -42,7 +44,7 @@ nav img{
 }
 
 .navigationLinks ul li:first-child{
-    margin-left: 0;
+   margin-left: 0;
 }
 
 .navigationLinks ul li a{
