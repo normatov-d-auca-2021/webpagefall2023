@@ -1,0 +1,29 @@
+Goals for Tajikistan Touristic Services Website
+
+1. Purpose of the Landing Page:
+   The primary purpose of the landing page for our touristic services website in Tajikistan is to provide 
+   an engaging and informative introduction to the incredible travel opportunities and experiences that Tajikistan
+   has to offer. The landing page should inspire visitors to explore the beauty, culture, and adventure that this 
+   Central Asian gem has in store. It should serve as a gateway for users to access comprehensive travel information,
+   plan their trips, and ultimately encourage them to choose Tajikistan as their next travel destination.
+
+2. Target Audience:
+   Our target audience is diverse, consisting of both domestic and international travelers who are interested in 
+   exploring Tajikistan. This includes adventure seekers, nature enthusiasts, cultural explorers, history buffs, 
+   and backpackers. Specific demographics we aim to reach include solo travelers, couples, families, and travel groups. 
+   We want to cater to both budget-conscious and luxury travelers, making the website a one-stop resource for anyone 
+   interested in visiting Tajikistan.
+
+3. Call to Action (CTA):
+   The primary call to action on our website's landing page is to prompt visitors to begin their journey of discovery in Tajikistan into the
+   several ways of travelling, like 0ne-day, two-days, 3-days tours. 
+   We want to encourage users to take specific actions, including:
+   - Explore: Encouraging users to browse through our website to discover the diverse destinations, 
+   attractions, and activities Tajikistan has to offer.
+   - Plan: Providing tools and information for users to plan their trip, including itineraries, accommodation options, and travel tips.
+   - Book: Offering a seamless booking system for flights, accommodations, tours, and activities within Tajikistan.
+   - Connect: Encouraging users to connect with us through social media, newsletters, or live chat for personalized assistance and updates.
+   - Learn: Providing resources and blog articles to educate users about Tajikistan's culture, history, safety, and travel recommendations.
+
+We aim to create a user-friendly and captivating landing page that not only captures the essence of Tajikistan 
+but also guides and supports travelers in every step of their journey, from the initial inspiration to the final booking and beyond.
