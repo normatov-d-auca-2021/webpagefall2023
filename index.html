@@ -1,30 +1,30 @@
 <!DOCTYPE html>
 <html lang= "en">
 
-<html>
-
 <head>
     <title>Website about Tajikistan</title>
     <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Kanit:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
 </head>
- 
+
 <body>  
-    <section class="headerOfWebSite">
+    <section class="headerOfWebSite"> 
         <nav>
             <a href="index.html"><img src="images/Mountain-logo-template-on-transparent-background-PNG.png"></a>
-            
-            <div class = "navigationLinks">
-                <ul>
-                <li><a href="">HOME</a></li>
-                <li><a href="">TOURS WE OFFER</a></li>
-                <li><a href="https://github.com/normatov-d-auca-2021/webpagefall2023/blob/main/goals.md">GOALS</a></li>
-                <li><a href="">TO VISIT</a></li>
-                <li><a href="https://www.airbnb.com/tajikistan/stays">HOUSING</a></li>  
-                </ul>
+            <div class="navigationLinks" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu() "></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">TOURS WE OFFER</a></li>
+                        <li><a href="https://github.com/normatov-d-auca-2021/webpagefall2023/blob/main/goals.md">GOALS</a></li>
+                        <li><a href="">TO VISIT</a></li>
+                        <li><a href="">CULTURE</a></li>
+                    </ul>
             </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
 
     <div class="textsBox">
@@ -34,7 +34,6 @@
             Our touristic company provides tours to the different parts of Tajikitsan. 
             Our tours varies from one-day to three-days tours.
              <br>It’s known for rugged mountains, popular for hiking and climbing. </p>
-            
     <a href="" class="btn">Explore To Know More</a>
     </div>
 
@@ -70,30 +69,48 @@
     <!-------TO VISIT ------->
     <section class = "tovisit">
         <h1>TOP-3 PLACES YOU CAN VISIT</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum, velit id nulla debitis ab eveniet asperiores, iusto maiores praesentium suscipit error reiciendis nesciunt.</p>
+        <p>Here you can find TOP-3 cities in Tajikistan that must be visited. They arefull of cultural and historical places.</p>
 
         <div class="row">
             <div class="tovisit-col">
-                <img src="images/dushanbe-tajikistan-circa-june-statue-ismoil-somoni-centre-dushanbe-circa-june-dushanbe-amir-ismail-samani-square-122980028.jpg.webp">
+                <img src="images/стела.jpg">
                 <div class="layer">
                     <h3>DUSHANBE</h3>
                 </div>
             </div>
 
             <div class="tovisit-col">
-                <img src="images/стела.jpg">
+                <img src="images/Iskanderkul-Lake-Tajikistan-Fann-Mountains-3.jpg">
                 <div class="layer">
-                    <h3>KHUJAND</h3>
+                    <h3>ISKANDERKUL</h3>
                 </div>
             </div>
 
             <div class="tovisit-col">
-                <img src="images/beautiful-vertical-shot-flowers-with-rocks-alongside-puez-geisler-nature-park-italy_181624-25903.jpg.avif">
+                <img src="images/Edited-Pamir-Highway-1024x672.jpg">
                 <div class="layer">
-                    <h3>PAMIR</h3>
+                    <h3>PAMIR HIGHWAY</h3>
                 </div>
             </div>
-        </div>>
+        </div>
+
+    </section>
+    
+
+<!-------JavaScript for Toggle Menu------->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
 
 </body>
 
