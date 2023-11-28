@@ -79,6 +79,7 @@ nav img{
     font-size: 14px;
     color: #fff;
 }
+
 .btn{
     display: inline-block;
     text-decoration: none;
@@ -96,6 +97,7 @@ nav img{
     background: #87CEEB;
     transition: 1s;
 }
+
 nav .fa{
     display: none;
 }
